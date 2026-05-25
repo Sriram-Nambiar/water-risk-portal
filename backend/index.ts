@@ -5,7 +5,7 @@ import cors from 'cors'
 
 const app = express();
 app.use(cors({
-    origin: 'https://water-risk-portal.vercel.app/' 
+    origin: 'https://water-risk-portal.vercel.app' 
 }));
 app.use(express.json());
 
