@@ -1,0 +1,47 @@
+[
+  {
+    "timestamp": "2026-05-25T02:37:05.408Z",
+    "lake_name": "Bellandur Lake",
+    "coordinates": {
+      "lat": 12.936,
+      "lng": 77.6666
+    },
+    "parameters": {
+      "ph": 9.1,
+      "cod": 300,
+      "bod": 45,
+      "tds": 600
+    },
+    "status": "High Risk"
+  },
+  {
+    "timestamp": "2026-05-25T02:58:12.801Z",
+    "lake_name": "hulimavu",
+    "coordinates": {
+      "lat": 13,
+      "lng": 4
+    },
+    "parameters": {
+      "ph": 9,
+      "cod": 38,
+      "bod": 138,
+      "tds": 763
+    },
+    "status": "High Risk"
+  },
+  {
+    "timestamp": "2026-05-25T03:15:32.480Z",
+    "lake_name": "Gottigere",
+    "coordinates": {
+      "lat": 7,
+      "lng": 3
+    },
+    "parameters": {
+      "ph": 8,
+      "cod": 25,
+      "bod": 8,
+      "tds": 729
+    },
+    "status": "High Risk"
+  }
+]
