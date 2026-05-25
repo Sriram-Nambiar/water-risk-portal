@@ -72,10 +72,10 @@ export default function WaterReportForm() {
         <div className="hero-copy">
           <span className="eyebrow">Urban water intelligence</span>
           <h1>Bengaluru Water Risk Portal</h1>
-          <p>
+          {/* <p>
             Capture lake chemistry readings and get a fast risk signal for
             nearby monitoring teams.
-          </p>
+          </p> */}
         </div>
         <div className="signal-visual" aria-hidden="true">
           <span className="signal-ring ring-a"></span>
