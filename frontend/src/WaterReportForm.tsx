@@ -34,7 +34,7 @@ export default function WaterReportForm() {
     setIsSubmitting(true);
     
     try {
-      const res = await fetch('https://water-risk-portal-1elo3k231-sriram-nambiars-projects.vercel.app/', {
+      const res = await fetch('https://water-risk-portal.onrender.com/', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
