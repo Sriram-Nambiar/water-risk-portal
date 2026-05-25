@@ -5,7 +5,7 @@ import cors from 'cors'
 
 const app = express();
 app.use(cors({
-    // Make sure to include https:// and NO trailing slash at the end!
+
     origin: 'https://water-risk-portal.vercel.app' 
 }));
 app.use(express.json());
