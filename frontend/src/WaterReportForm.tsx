@@ -34,7 +34,7 @@ export default function WaterReportForm() {
     setIsSubmitting(true);
     
     try {
-      const res = await fetch('https://water-risk-portal.onrender.com/', {
+      const res = await fetch('https://water-risk-portal.onrender.com/report/risk', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
